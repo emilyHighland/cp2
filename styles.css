@@ -1,5 +1,36 @@
 
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: monospace;
+}
 
-.pexelsLogo img{
-  width = 5%;
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading1 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer {
+  justify-content: flex-end;
+}
+
+.pexelsLogo {
+  display: flex;
+  justify-content: center;
+  align-content: flex-end;
+  width = 50px;
+  padding: 20px;
 }
